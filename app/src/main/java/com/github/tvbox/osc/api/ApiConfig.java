@@ -79,7 +79,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "ceshiyixia ");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://m.hz.98hg.top/m.json");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
